@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { MaterialModule } from './material.module';
+import { MaterialModule } from './material.module';           // Angular Material Module Collector
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,7 +21,7 @@ import { ErrorsComponent } from './errors/errors.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule                                          // Angular Material Module Collector
   ],
   providers: [],
   bootstrap: [AppComponent]
