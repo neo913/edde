@@ -1,0 +1,37 @@
+@import '../../assets/style/main.scss';
+
+.header_space {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo_space {
+  max-height: 300px;
+  height: 100%;
+  width: 100%;
+  button {
+    border: 1px solid $gray;
+    box-shadow: 0rem 0rem 1rem $gray;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+}
+
+nav {
+  mat-toolbar {
+    background-color: transparent;
+    button {
+      margin: 1rem;
+    }
+    .icon {
+      ~button {
+        padding: 0px;
+        
+      }
+      height: 2rem;
+    }
+  }
+}

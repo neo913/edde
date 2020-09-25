@@ -1,0 +1,20 @@
+<div class="header_space">
+  <div *ngIf="pageName === '/'"  class="container center_item logo_space">
+    <button mat-raised-button (click)="getPageName()" routerLink="/">
+      <img src="../assets/imgs/EDDE - logo.png" alt="logo"/>
+    </button>
+  </div>
+  
+  <nav>
+    <mat-toolbar class="container center_item">
+      <button mat-button (click)="getPageName()" routerLink="/Home">EDDE</button>
+      <button mat-button (click)="getPageName()" routerLink="/Projects">Projects</button>
+      <button mat-button >Contact</button>
+    </mat-toolbar>
+  </nav>
+</div>
+
+
+내일 할것: 첫페이지 큰로고 혹은 EDDE 클릭시 내소개 (같은 콤포넌트에 넣기) 한 후에 로고 숨기고 navbar top fix
+내소개가 열린 상태라면 맨 첫페이지 열었을때처럼
++ 애니메이션 효과
