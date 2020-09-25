@@ -17,6 +17,8 @@
     box-shadow: 0rem 0rem 1rem $gray;
     border-radius: 1rem;
     padding: 1rem;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
   }
 }
 
